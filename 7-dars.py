@@ -1,0 +1,17 @@
+cars = ['bmw','mercedes','audio','chevrolet','kia','tesla']
+cars.sort()
+sonlar = [5,12,-9,74,-6.5,-7.1,55]
+print(sorted(sonlar))
+uzunlik = len(cars)
+print(uzunlik) 
+sonlar = list(range(0,10))
+print(sonlar) 
+toq_sonlar = list(range(1,20,2))
+print(toq_sonlar)
+juft_sonlar = list(range(0,20,2))
+print(juft_sonlar)
+print(max(juft_sonlar)) 
+print(sum(sonlar))
+print(cars[0::3])
+toys = ("bus","car","snake","bear")
+print(toys) 
