@@ -1,11 +1,6 @@
-talaba = {
-    "ism" : "Jonibek",
-    "familiya" : "Uralov",
-    "yosh" : 20,
-    "fakultet" : "Kompyuter injeneringi",
-    "kurs" : 4
-}
-print(talaba.items())
-for kalit, qiymat in talaba.items():
-    print(f"Kalit: {kalit}")
-    print(f"Qiymat: {qiymat} \n")
+sonlar = list(range(1,10))
+for son in sonlar:
+    if son == 5:
+        break
+    print(f"{son} ning kvadrati {son**2}")
+    

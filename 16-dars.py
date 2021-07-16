@@ -1,16 +1,4 @@
-trackers=[]
-for n in range(10):
-    new_car = {
-        "model" : "tracker",
-        "rang"  : None,
-        "yil" : 2021,
-        "narx" : None,
-        "yurgan" : 0,
-        "uzatish qutisi" : "avtomat"    
-    }
-    trackers.append(new_car)
-print(trackers)
-for trac in trackers[:3]:
-    trac["rang"] = "qizil" 
-for trac in trackers:
-    print(trac)
+def yosh_hisobla(ism, tugilgan_yil):
+    print(f"{ism.title()} {2021-tugilgan_yil} yoshda")
+yosh_hisobla("jonibek",2001)
+yosh_hisobla("temur",2006)
