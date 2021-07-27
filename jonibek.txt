@@ -1,0 +1,4 @@
+Python
+ fayllar 
+ bilan 
+ ishlash.
